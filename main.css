@@ -3,35 +3,55 @@ body > div{
     margin-left: calc( (100% - 1000px) /2);
     background-color: #EBEFF6;
 }
-    img:nth-of-type(1){
-        display: inline-block;
+    body>div>img{
+        display: block;
         float: right;
-        margin-top: 0;
+        margin:0;
+        margin-right: 50px;
     }
     main{
         display: inline-block;
         width: 920px;
         background-color: #748EA8;
+        margin-left: 0;
+        text-align: center;
+        image-orientation: center;
     }
+        header{
+            background-color: aqua;
+            width: 100%;
+            height: 50px;
+        }
             header > i{
-            float:right;
+                float:right;
+                padding: 5px;
         }
              i:nth-of-type(1){
                  float:left;
              }
-        }
         main > img{
-            display: block;
-            image-orientation: center;
-            margin:0;
+            display: inline-block;
+            width: 65%;
         }
-        h{
-            text-align: center;
+        h1{
+            display: inline-block;
             font-size: 50px;
-            display: block;
+            background-color: #6C7037;
         }
-        p{
-            text-align: center;
+        p{  display: inline-block;
             font-size: 17px;
             display: block;
+            background-color: greenyellow;
         }
+    img:nth-of-type(4){
+        display: inline-block;
+        float:right;
+        width: 20px;
+    }
+    body>div>div{
+        display:block;
+    }
+    body>div>div>*{
+        display: inline-block;
+        float: left;
+    }
