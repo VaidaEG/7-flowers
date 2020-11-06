@@ -1,0 +1,37 @@
+body > div{
+    width: 1000px;
+    margin-left: calc( (100% - 1000px) /2);
+    background-color: #EBEFF6;
+}
+    img:nth-of-type(1){
+        display: inline-block;
+        float: right;
+        margin-top: 0;
+    }
+    main{
+        display: inline-block;
+        width: 920px;
+        background-color: #748EA8;
+    }
+            header > i{
+            float:right;
+        }
+             i:nth-of-type(1){
+                 float:left;
+             }
+        }
+        main > img{
+            display: block;
+            image-orientation: center;
+            margin:0;
+        }
+        h{
+            text-align: center;
+            font-size: 50px;
+            display: block;
+        }
+        p{
+            text-align: center;
+            font-size: 17px;
+            display: block;
+        }
