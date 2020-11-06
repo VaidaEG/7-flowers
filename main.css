@@ -7,7 +7,7 @@ body > div{
         display: block;
         float: right;
         margin:0;
-        margin-right: 50px;
+        margin-right: 70px;
     }
     main{
         display: inline-block;
@@ -18,13 +18,16 @@ body > div{
         image-orientation: center;
     }
         header{
-            background-color: aqua;
-            width: 100%;
+            width: 900px;
             height: 50px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
         }
             header > i{
                 float:right;
                 padding: 5px;
+                font-size: 30px;
         }
              i:nth-of-type(1){
                  float:left;
@@ -32,16 +35,23 @@ body > div{
         main > img{
             display: inline-block;
             width: 65%;
+            margin-top: 50px;
         }
         h1{
             display: inline-block;
-            font-size: 50px;
-            background-color: #6C7037;
+            font-size: 60px;
+            font-family: 'Love Ya Like A Sister', cursive;
+            margin: 0;
+            text-transform: uppercase;
+            margin: 0;
+            margin-top: 30px;
         }
         p{  display: inline-block;
-            font-size: 17px;
+            font-size: 21px;
             display: block;
-            background-color: greenyellow;
+            font-family: font-family: 'ZCOOL XiaoWei', serif;
+            margin: 0;
+            margin-bottom: 120px;
         }
     img:nth-of-type(4){
         display: inline-block;
@@ -54,4 +64,13 @@ body > div{
     body>div>div>*{
         display: inline-block;
         float: left;
+    }
+    body>div>div>img:nth-of-type(1){
+        margin-top: 340px;
+    }
+    body>div>div>img:nth-of-type(2){
+        margin-top: 50px;
+    }
+    i,h1,p{
+        color:white;
     }
