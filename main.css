@@ -25,12 +25,14 @@ body > div{
             margin-left: 10px;
         }
             header > i{
-                float:right;
+                float:left;
                 padding: 5px;
                 font-size: 30px;
         }
              i:nth-of-type(1){
                  float:left;
+                 margin-right: 750px;
+
              }
         main > img{
             display: inline-block;
