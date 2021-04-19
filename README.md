@@ -9,7 +9,7 @@
 - Only desktop
 
 This project is for educational purposes only.
-Site published at https://vaidaeg.github.io/6-mergaite/
+Site published at https://vaidaeg.github.io/7-flowers/
 
 ## Authors
 [Vaida](https://github.com/VaidaEG)
